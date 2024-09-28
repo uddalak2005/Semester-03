@@ -1,0 +1,22 @@
+<html>
+<head>
+    <title>Will be Redirected to SOA</title>
+    <meta http-equiv="refresh" content="5; url=https://www.soa.ac.in">
+</head>
+<body>
+    <h2>Meta Element Example</h2>
+    <p style="color: green">Will be redirected to SOA University Website in <span id="timer">5</span> seconds</p>
+    
+    <script>
+        let countdown = 5;
+
+        const interval = setInterval(function() {
+            countdown--;
+            document.querySelector("#timer").innerHTML = countdown;
+            if (countdown <= 0) {
+                clearInterval(interval); // Stop the countdown when it reaches 0
+            }
+        }, 1000);
+    </script>
+</body>
+</html>

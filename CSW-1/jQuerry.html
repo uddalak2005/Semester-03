@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Testing jQuerry</title>
+		<meta lang = "en" charset = "UTF-8">
+		<script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+	</head>
+	<body>
+		<div>
+		<h1>JQuerry Example Code</h1>
+		<p> <b> This line will get removed once the following button is clicked. </b> </p>
+		<button id = "btn">Hide</button>
+		<button id = "show">Show</button>
+		</div>
+	</body>
+	<script>
+		$(document).ready(function () {
+			$("#btn").click(function() {
+				$("p").hide();
+			});
+		});
+		$(document).ready(function() {
+			$("#show").click(function() {
+				$("p").show();
+			});
+		});
+
+
+	</script>
+</html>

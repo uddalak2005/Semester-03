@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>what is full stack development</title>
+		<meta charset='UTF-8'>
+		<style>
+			body{
+				padding: 20px;
+			}
+			nav{
+				color:red;
+				display:flex;
+				justify-content:space-between;
+				align-items:center;
+				margin: auto;
+				width:90vw;
+			}
+			ul{
+				list-style: none;
+				display: flex;
+				gap: 20px;
+			}
+		</style>
+	</head>
+	<body>
+		<nav>
+			<h2>My Heading : full stack development</h2>
+			<ul>
+				<li>Home</li>
+				<li>About</li>
+				<li>Contact Us</li>
+			</ul>
+		</nav>
+		<p> In this book we will learn full stack development</p>
+		<h2>If you read 5 pages each day for 30 days, then total number of pages read is <span id = "results" ></span> pages. </h2>
+			
+	</body>
+	<script>
+		let pagesPerDay = 5;
+		let numberOfDays = 30;
+		let totalNumberOfPages = pagesPerDay * numberOfDays;
+		document.getElementById("results").innerHTML = totalNumberOfPages
+	</script>
+</html>
