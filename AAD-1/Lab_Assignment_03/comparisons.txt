@@ -1,0 +1,33 @@
+Array size: 100
+Bubble Sort Iterative - Comparisons: 4950
+Selection Sort Iterative - Comparisons: 4950
+Insertion Sort Iterative - Comparisons: 2394
+
+Array size: 1000
+Bubble Sort Iterative - Comparisons: 499500
+Selection Sort Iterative - Comparisons: 499500
+Insertion Sort Iterative - Comparisons: 251676
+
+Array size: 10000
+Bubble Sort Iterative - Comparisons: 49995000
+Selection Sort Iterative - Comparisons: 49995000
+Insertion Sort Iterative - Comparisons: 24979227
+
+Array size: 100
+Bubble Sort Recursive - Comparisons: 4950
+Selection Sort Recursive - Comparisons: 4950
+Insertion Sort Recursive - Comparisons: 2394
+Heap Sort - Comparisons: 1288
+
+Array size: 1000
+Bubble Sort Recursive - Comparisons: 499500
+Selection Sort Recursive - Comparisons: 499500
+Insertion Sort Recursive - Comparisons: 251676
+Heap Sort - Comparisons: 19216
+
+Array size: 10000
+Bubble Sort Recursive - Comparisons: 49995000
+Selection Sort Recursive - Comparisons: 49995000
+Insertion Sort Recursive - Comparisons: 24979227
+Heap Sort - Comparisons: 258760
+
